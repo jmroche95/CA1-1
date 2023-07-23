@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int a = 10, b = 20, c = 30;
+  
+  int d = a + b;
+  printf("The value of d: %d\n", d);
+  
+  int e = d - c;
+  printf("The value of e: %d\n", e);
+  
+  return 0;
+}
